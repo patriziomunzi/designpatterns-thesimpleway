@@ -4,7 +4,7 @@ package hcom.hpay.pattern.structural.decorator;
  * TODO: Document.
  * @author pmunzi
  */
-public class ScrollableHtmlFieldDecorator implements HtmlField {
+public class ScrollableHtmlFieldDecorator extends Abstra{
     private HtmlField htmlField;
 
     public ScrollableHtmlFieldDecorator(HtmlField htmlField) {
@@ -13,6 +13,7 @@ public class ScrollableHtmlFieldDecorator implements HtmlField {
 
     @Override
     public void draw() {
+        super.draw();
         System.out.println("scrollable");
     }
 }
