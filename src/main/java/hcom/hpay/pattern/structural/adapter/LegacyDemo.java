@@ -1,7 +1,7 @@
 package hcom.hpay.pattern.structural.adapter;
 
 /**
- * Wrong Main.
+ * Wrong Producer.
  * @author pmunzi
  */
 public class LegacyDemo {
